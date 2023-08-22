@@ -1,36 +1,84 @@
-class SportsMania
-{
-  static String topTenCricketBatsman[]= {"kane williamson","steve smith","marnus labuschangne","travis head","joe root","babar azamusman khawaja","dayrl mitchell","dimuth karunaratne","rishab pant","Virak Kohli"};
-  static String topTenCricketTeams[]= {"australia","pakistan","India","new zealand","england","south africa","bangladesh","afghanisthan","sriLanka","WestIndies"};
-  static String topTenHockyTeams[]= {"Australia","Belgium","Netherlands","Germany","India","England","Argentina","Spain","New Zealand","Malaysia"};
-  static String topTenTennisPlayers[]= {"Novak Djokovic","Carlos Alcaraz","Daniil Medvedv","caspur rud","jannik sinner","rafael Nadal","andry rublev","hubert"," holger rune","Alexander Zverev"};
-  static String topTenCricketBowlers[]= {"Josh Hazlewookg","Mitchell Starc","Rashid Khan","Mohammad Siraj","Matt Henry","Trent Boult","Adam Zampa"," Mohammad Nabi"," Chris Woakes"," Mark Watt"};
-  public static void main(String sports[])
-  {
-         System.out.println("main started");
-		 for(int index = topTenCricketBatsman.length-1;index >=0  ; index--)
-		{
-		System.out.println("the topTen CricketBatsman are " +topTenCricketBatsman[index]);
-		}
-		for(int index = topTenCricketTeams.length-1;  index>=0;  index--)
-		{
-		System.out.println("the topTen CricketTeams are " +topTenCricketTeams[index]);
-		}
-		
-		for(int index = topTenHockyTeams.length-1;  index>=0;   index--)
-		{
-		System.out.println("the topTen  HockyTeams are " +topTenHockyTeams[index]);
-		}
-		
-		for(int index = topTenTennisPlayers.length-1; index>=0; index--)
-		{
-		System.out.println("the topTen TennisPlayers are " +topTenTennisPlayers[index]);
-		}
-		
-		for(int index = topTenCricketBowlers.length-1; index>=0; index--)
-		{
-		System.out.println("the topTen CricketBowlers are " +topTenCricketBowlers[index]);
-		}
-		System.out.println("the mian ended");
-	}
-}	
+class SportsMania{
+	
+	static String topTenCricketBatsman[] ={"King Kohli","Steve Smith","Kane Williamson","Joe Root","Rohit Sharma","Marnus Labuschagne","Babar Azam","David Warner","Ross Taylor","Quinton de Kock"};
+	
+	static  String topTenCricketTeams[]={"India","Australia","England","New Zealand","South Africa","Pakistan","West Indies","Sri Lanka","Bangladesh","Zimbabwe"};
+	
+    static String topTenHockeyTeams[]= {"Belgium","Australia","Netherlands","Germany","India","Argentina","England","New Zealand","Spain","Canada"};
+	
+	static String topTenTennisPlayers[]= {"Novak Djokovic","Daniil Medvedev","Rafael Nadal","Stefanos Tsitsipas","Alexander Zverev","Dominic Thiem","Roger Federer","Matteo Berrettini","Casper Ruud","Andrey Rublev"};
+
+   static String topTenCricketBowlers[]= {"Pat Cummins","Ravichandran Ashwin","Marnus Labuschagne","Kyle Jamieson","Ravindra Jadeja","Jasprit Bumrah","Josh Hazlewood","Neil Wagner","Shaheen Afridi","Tim Southee"};
+   
+   public static void main (String top[])
+   {
+	   
+	   System.out.println("main started");
+	   
+	   System.out.println("Top Class  Batsman "+  topTenCricketBatsman[0]);
+	   System.out.println("Top Batsman "+  topTenCricketBatsman[1]);
+	   System.out.println("Top Batsman "+  topTenCricketBatsman[2]);
+	   System.out.println("Top Batsman "+  topTenCricketBatsman[3]);
+	   System.out.println("Top Batsman "+  topTenCricketBatsman[4]);
+	   System.out.println("Top Batsman "+  topTenCricketBatsman[5]);
+	   System.out.println("Top Batsman "+  topTenCricketBatsman[6]);
+	   System.out.println("Top Batsman "+  topTenCricketBatsman[7]);
+	   System.out.println("Top Batsman "+  topTenCricketBatsman[8]);
+	   System.out.println("Top Batsman "+  topTenCricketBatsman[9]);
+	   
+	   
+	   
+	   System.out.println("Top Cricket Team "+  topTenCricketTeams[0]);
+	   System.out.println("Top Cricket Team "+  topTenCricketTeams[1]);
+	   System.out.println("Top Cricket Team "+  topTenCricketTeams[2]);
+	   System.out.println("Top Cricket Team "+  topTenCricketTeams[3]);
+	   System.out.println("Top Cricket Team "+  topTenCricketTeams[4]);
+	   System.out.println("Top Cricket Team "+  topTenCricketTeams[5]);
+	   System.out.println("Top Cricket Team "+  topTenCricketTeams[6]);
+	   System.out.println("Top Cricket Team "+  topTenCricketTeams[7]);
+	   System.out.println("Top Cricket Team "+  topTenCricketTeams[8]);
+	   System.out.println("Top Cricket Team "+  topTenCricketTeams[9]);
+	   
+	   
+	   
+	   System.out.println("Top Hockey Team "+  topTenHockeyTeams[0]);
+	   System.out.println("Top Hockey Team "+  topTenHockeyTeams[1]);
+	   System.out.println("Top Hockey Team "+  topTenHockeyTeams[2]);
+	   System.out.println("Top Hockey Team "+  topTenHockeyTeams[3]);
+	   System.out.println("Top Hockey Team "+  topTenHockeyTeams[4]);
+	   System.out.println("Top Hockey Team "+  topTenHockeyTeams[5]);
+	   System.out.println("Top Hockey Team "+  topTenHockeyTeams[6]);
+	   System.out.println("Top Hockey Team "+  topTenHockeyTeams[7]);
+	   System.out.println("Top Hockey Team "+  topTenHockeyTeams[8]);
+	   System.out.println("Top Hockey Team "+  topTenHockeyTeams[9]);
+	   
+	   System.out.println("Top Tennis Player "+  topTenTennisPlayers[0]);
+	   System.out.println("Top Tennis Player "+  topTenTennisPlayers[1]);
+	   System.out.println("Top Tennis Player "+  topTenTennisPlayers[2]);
+	   System.out.println("Top Tennis Player "+  topTenTennisPlayers[3]);
+	   System.out.println("Top Tennis Player "+  topTenTennisPlayers[4]);
+	   System.out.println("Top Tennis Player "+  topTenTennisPlayers[5]);
+	   System.out.println("Top Tennis Player "+  topTenTennisPlayers[6]);
+	   System.out.println("Top Tennis Player "+  topTenTennisPlayers[7]);
+	   System.out.println("Top Tennis Player "+  topTenTennisPlayers[8]);
+	   System.out.println("Top Tennis Player "+  topTenTennisPlayers[9]);
+	   
+	   
+	   System.out.println("Top Bowler "+  topTenCricketBowlers[0]);
+	   System.out.println("Top Bowler "+  topTenCricketBowlers[1]);
+	   System.out.println("Top Bowler "+  topTenCricketBowlers[2]);
+	   System.out.println("Top Bowler "+  topTenCricketBowlers[3]);
+	   System.out.println("Top Bowler "+  topTenCricketBowlers[4]);
+	   System.out.println("Top Bowler "+  topTenCricketBowlers[5]);
+	   System.out.println("Top Bowler "+  topTenCricketBowlers[6]);
+	   System.out.println("Top Bowler "+  topTenCricketBowlers[7]);
+	   System.out.println("Top Bowler "+  topTenCricketBowlers[8]);
+	   System.out.println("Top Bowler "+  topTenCricketBowlers[9]);
+	   
+	   System.out.println("main Ended");
+
+       
+
+   }
+}
+
