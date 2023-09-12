@@ -1,3 +1,0 @@
-class XWorkz extends TrainingInstitute{
-	
-}

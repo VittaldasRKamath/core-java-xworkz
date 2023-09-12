@@ -1,3 +1,0 @@
-class Navarang extends Theatre{
-	
-}

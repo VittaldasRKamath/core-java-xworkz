@@ -1,3 +1,0 @@
-class Vittaldas extends OttPlatform{
-	
-}
