@@ -1,22 +1,21 @@
 class HotelExecutor{
-      
-	  public static void main(String args[]){
-	  
-	  Hotel.addChats("Masal Dosa");
-	  Hotel.addChats("Khali Dosa");
-	  Hotel.addChats("Set Dosa");
-	  Hotel.addChats("Benne Dosa");
-	  Hotel.addChats("Onion Dosa");
-	  Hotel.addChats("Pulav");
-	  Hotel.addChats("Tatte Idly");
-	  Hotel.addChats("Puliyogre");
-	  Hotel.addChats("Puri");
-	  Hotel.addChats("Chitranna");
-	  
-	  
-	  
-	  
-	  Hotel.getDetails();
-	  
-	  }
+	
+	public static void main(String[] ottp){
+		
+	Hotel	hotel=new Hotel();
+	hotel.foodName("Vangi Bhath");
+	hotel.foodName("Masale Dosa");
+	hotel.foodName("Ragi Mudde");
+	hotel.foodName("Veg Pulav");
+	hotel.foodName("Fried Rice");
+	hotel.foodName("Chitranna");
+	hotel.foodName("Jolada Roti");
+	hotel.foodName("Kadhai Paneer");
+	hotel.foodName("Malai Kofta");
+	//hotel.foodName("Mushroom Masala");
+	hotel.foodName("Vangi Bhath");
+	//hotel.foodName("Chai");
+		
+	hotel.getDisplay();
+	}
 }
