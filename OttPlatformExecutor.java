@@ -2,13 +2,19 @@ class OttPlatformExecutor{
 	
 	public static void main(String[] ottp){
 		
-		OttPlatform ott=new OttPlatform();
+		Hotstar ott=new Hotstar();
 		
-		ott.addMovieName("Rangi Taranga");
-		ott.addMovieName("Kirik Party");
+		ott.addMovieName("RRR");
+		ott.addMovieName("KGF");
+		ott.addMovieName("KGF 2");
+		ott.addMovieName("PUSHPA");
 		ott.addMovieName("Kantara");
-		ott.addMovieName("Love Mocktail");
-		ott.addMovieName("Rangi Taranga");
 		ott.getDisplay();
+		String a=ott.searchMovie("RRR");
+		System.out.println("Serched  Movie "+a);
+		boolean delete=ott.deleteMovieNames("RRR");
+		//System.out.println("Deleted movie"+delete);
+		//ott.getDisplayAfter();
+		
 	}
 }
